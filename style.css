@@ -86,11 +86,7 @@ main {
 }
 
 @media (max-width: 600px) {
-    /* .wrapper {
-      display: flex;
-      flex-direction: column;
-    }
-   */
+    
     .wrapper {
         display: flex;
         grid-template-columns: 1fr;
@@ -99,4 +95,4 @@ main {
         align-items: center;
     }
 
-  } 
+} 
