@@ -91,14 +91,14 @@ main {
 }
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     .wrapper {
       display: flex;
       flex-direction: column;
     }
   
     .card {
-      /* width: 100%; */
+      width: 100%;
       background-color: brown;
       overflow: visible;
     }
@@ -106,4 +106,4 @@ main {
     .flipped .question {
         right: -150%;
     }
-  }
+  } */
