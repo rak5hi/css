@@ -67,6 +67,16 @@ main {
 }
 }
 
+@media (max-width: 600px) {
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .card {
+      width: 100%;
+    }
+  }
     
 .btn{
     position: absolute;
