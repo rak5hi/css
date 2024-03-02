@@ -61,23 +61,6 @@ main {
     transition: right 2s;
 }
 
-@media (min-width: 800px) {
-    .wrapper {
-        grid-template-columns: auto auto;
-}
-}
-
-@media (max-width: 600px) {
-    .wrapper {
-      display: flex;
-      flex-direction: column;
-    }
-  
-    .card {
-      width: 100%;
-    }
-  }
-    
 .btn{
     position: absolute;
     bottom:1rem;
@@ -102,3 +85,24 @@ main {
     right: -100%;
 }
 
+@media (min-width: 800px) {
+    .wrapper {
+        grid-template-columns: auto auto;
+}
+}
+
+@media (max-width: 600px) {
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .card {
+      width: 100%;
+      overflow: visible;
+    }
+
+    .flipped .question {
+        right: -150%;
+    }
+  }
