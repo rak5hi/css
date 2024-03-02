@@ -16,7 +16,7 @@ main {
 
 .wrapper {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     justify-content: center;
     gap: 4rem;
 }
@@ -85,25 +85,18 @@ main {
     right: -100%;
 }
 
-@media (min-width: 800px) {
-    .wrapper {
-        grid-template-columns: auto auto;
-}
-}
-
-/* @media (max-width: 600px) {
-    .wrapper {
+@media (max-width: 600px) {
+    /* .wrapper {
       display: flex;
       flex-direction: column;
     }
-  
-    .card {
-      width: 100%;
-      background-color: brown;
-      overflow: visible;
+   */
+    .wrapper {
+        display: flex;
+        grid-template-columns: 1fr;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-    .flipped .question {
-        right: -150%;
-    }
-  } */
+  } 
